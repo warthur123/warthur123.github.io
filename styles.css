@@ -6,12 +6,55 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 88px;
+  color: #005e53;
 }
 
 h2 {
   color: #39ad8b;
   font-size: 45px;
 }
+
+.about-h:after {
+  background-color: #39ad8b;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 85%;
+
+  left: 0.3em;
+  margin-right: -50%;
+ }
+
+ .projects-h:after {
+  background-color: #39ad8b;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 81%;
+
+  left: 0.3em;
+  margin-right: -50%;
+ }
+
+.connect-h:after {
+  background-color: #39ad8b;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 81%;
+
+  left: 0.3em;
+  margin-right: -50%;
+ }
+
+
 
 h3 {
   font-size: 23px;
@@ -42,7 +85,7 @@ a:hover {
 }
 
 #projects img {
-  border: 1px grey solid;
+  border: 2px #AAAAAA solid;
   border-radius: 7px;
 }
 
@@ -94,6 +137,11 @@ a:hover {
   color: #ad7031;
 }
 
+.connect-content {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
   text-align: center;
   margin-bottom: 24px;
@@ -113,4 +161,44 @@ footer {
   .project-left {
     margin-bottom: 30px;
   }
+
+
+  .about-h:after {
+    background-color: #39ad8b;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+  
+    left: 0.3em;
+    margin-right: -50%;
+   }
+  
+   .projects-h:after {
+    background-color: #39ad8b;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 60%;
+  
+    left: 0.3em;
+    margin-right: -50%;
+   }
+  
+  .connect-h:after {
+    background-color: #39ad8b;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 60%;
+  
+    left: 0.3em;
+    margin-right: -50%;
+   }
 }
