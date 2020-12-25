@@ -1,22 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/64631e0fda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
     <title>Arthur Wu</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Arthur Wu</h1>
+      <h1>Arthur Wu</h1>
     </header>
-    
+
+    <div class="main">
+      <div id="about">
+        <h2>About</h2>
+        <p class="about-text">
+          Hi! My name is Arthur, and I am currently an undergraduate senior
+          studying Information Science at the University of Maryland, College
+          Park. My career interests revolve around fields of work that merge
+          creative design with technology such as UI/UX design and full stack
+          web development. In my free time, I enjoy playing sports, gaming,
+          playing guitar and hanging out with friends.
+        </p>
+
+        <p class="about-text">
+          My goal is to make a positive impact and to empower people with
+          enjoyable experience through my designs.
+        </p>
+      </div>
+
+      <div id="projects">
+        <h2>Projects</h2>
+        <h3>Schedule of Planet Terp</h3>
+        <div class="schedule-of-pt-wrapper project">
+          <div class="project-left">
+            <p>
+              When registering for classes, UMD students need to access many
+              different online resources to obtain information on available
+              classes, professor ratings and class difficulty. To address this
+              issue of scattered information, My INST277 team and I developed a
+              website that combines course information, course GPA and professor
+              reviews into a single easy to use application. Our website draws
+              data from UMD.io and PlanetTerp APIs to create a tool that makes
+              class scheduling more efficient for UMD students.
+            </p>
+            <a href="https://github.com/warthur123/finalproject377"
+              >Source Code</a
+            >
+          </div>
+
+          <div class="project-right">
+            <a href="https://scheduleofpt.herokuapp.com/"
+              ><img
+                src="img/schedule_of_pt.png"
+                alt="schedule of pt"
+                style="width: 362px; height: 238px"
+            /></a>
+          </div>
+        </div>
+
+        <h3>Pickup Volley</h3>
+        <div class="pickup-volley-wrapper project">
+          <div class="project-left">
+            <p>
+              A small management web application for pick up volleyball written
+              using ReactJS. Features include an easy to use scoreboard as well
+              as team waiting list.
+            </p>
+            <a href="https://github.com/warthur123/PickupVolley">Source Code</a>
+          </div>
+
+          <div class="project-right">
+            <a href="#"
+              ><img
+                src="img/pickup_volley.png"
+                alt="pickup volley"
+                style="width: 362px; height: 286px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="connect">
+        <h2>Connect</h2>
+        <p>Email: warthur123@gmail.com</p>
+
+        <ul>
+            <li><a href="http://www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i></a></li>
+            <li><a href="http://www.github.com/warthur123"><i class="fab fa-github fa-3x"></i></a></li>
+        </ul>
+        
+      </div>
+    </div>
 
     <footer>
-        <small>
-            Arthur Wu | 2020
-        </small>
+      <small> Arthur Wu | 2020 </small>
     </footer>
-
-</body>
+  </body>
 </html>
