@@ -107,9 +107,19 @@ a:hover {
   justify-content: center;
 }
 
+.schedule-of-pt-wrapper img {
+  width: 362px; 
+  height: 238px;
+}
+
 .pickup-volley-wrapper {
   display: flex;
   justify-content: center;
+}
+
+.pickup-volley-wrapper img {
+  width: 362px; 
+  height: 286px;
 }
 
 #connect {
